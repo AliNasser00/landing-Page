@@ -69,10 +69,31 @@ p{
     width: 500px;
 }
 button{ 
-    background: royalblue;
+    background: #3882f6;
     border: 1px solid royalblue;
     color: white;
     width: 120px;
     padding: 10px;
     border-radius: 12px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+}
+.header2{
+    display: flex;
+    justify-content: center;
+}
+.ilu{
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #89CFF0;
+    border-radius: 8px;
+}
+.sec2-ilu{
+    display: flex;
+    padding-left: 250px;
+    gap: 20px;
+
 }
